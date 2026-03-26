@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Creative Developer Portfolio",
-  description: "Scrollytelling portfolio showcasing interactive experiences.",
+  title: "Aakash Takale | Senior Frontend Engineer",
+  description: "Senior Frontend Software Engineer specializing in Vue, React, TypeScript, and enterprise UI architecture.",
 };
 
 export default function RootLayout({
