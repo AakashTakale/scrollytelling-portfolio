@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 
 export default function Skills() {
-  const badgeStyle = "px-4 py-2 rounded-xl bg-neutral-800/60 border border-neutral-700 text-neutral-300 text-sm font-medium tracking-wide shadow-sm whitespace-nowrap hover:text-white transition-colors cursor-default";
+  const badgeStyle = "px-3 py-1 text-sm rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 font-medium whitespace-nowrap cursor-default";
 
   return (
     <section className="relative z-20 w-full bg-[#0a0a0a] py-32 border-t border-neutral-900 px-6 md:px-12 lg:px-24">

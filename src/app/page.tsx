@@ -4,8 +4,11 @@ import { useRef } from 'react';
 import { useScroll, useSpring } from 'framer-motion';
 import ScrollyCanvas from '@/components/ScrollyCanvas';
 import Overlay from '@/components/Overlay';
+import AboutMe from '@/components/AboutMe';
+import FeaturedWork from '@/components/FeaturedWork';
 import Experience from '@/components/Experience';
 import Skills from '@/components/Skills';
+import Connect from '@/components/Connect';
 
 export default function Home() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -30,8 +33,11 @@ export default function Home() {
         <Overlay scrollProgress={smoothProgress} />
       </div>
 
+      <AboutMe />
+      <FeaturedWork />
       <Experience />
       <Skills />
+      <Connect />
     </main>
   );
 }
