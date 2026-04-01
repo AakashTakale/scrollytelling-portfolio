@@ -9,24 +9,24 @@ export default function Experience() {
       title: 'Senior Software Engineer', 
       company: 'Vantiva', 
       year: 'Nov 2022 - Present',
-      story: "Spearheaded the frontend architecture for CloudCore, visualizing real-time telemetry for 5,000+ devices. Led the PrimeVue v3 to v4 migration, eliminating 30% of recurring regression defects through strict architectural patterns—all while hitting every release milestone with zero delays.",
-      tags: ['Vue.js', 'TypeScript', 'AWS CloudWatch', 'Data Visualization']
+      story: "Owned frontend architecture across a cloud-native device management platform at Vantiva. Led a seven-person team through multiple production releases with zero major incidents, driving alignment between product, design, and QA on delivery timelines, component standards, and release quality.",
+      tags: ['Vue.js', 'TypeScript', 'AWS', 'System Design']
     },
     { 
       id: 'usaa',
       title: 'Senior Web Developer', 
       company: 'USAA', 
       year: 'Oct 2018 - Nov 2022',
-      story: "Built interfaces powering critical enterprise financial systems. By completely refactoring our legacy codebase, I shaved 20% off page load times. Furthermore, developing highly reusable, data-driven React modules cut duplicate codebase efforts across multiple engineering teams by nearly a third.",
-      tags: ['React', 'JavaScript (ES6+)', 'Performance Optimization', 'Agile']
+      story: "Built and maintained critical UI surfaces for a large-scale financial services platform. Refactored legacy code to cut page load times by 20% and developed shared React component libraries that reduced duplicated frontend logic across multiple product teams.",
+      tags: ['React', 'JavaScript (ES6+)', 'Component Architecture', 'Performance']
     },
     { 
       id: 'qubedrop',
       title: 'Web Developer', 
       company: 'QubeDrop Corp.', 
       year: 'Oct 2016 - Sep 2018',
-      story: "Focused on bringing modularity and speed to product lines by implementing component-oriented UI guidelines from the ground up. This shift radically reduced the time needed to ship new feature updates and created a reliable foundation of UI stability.",
-      tags: ['JavaScript', 'UI Architecture', 'Responsive Design', 'Component Lifecycle']
+      story: "Early-career role where I moved the team from ad-hoc HTML/CSS to a structured component model. Helped establish the frontend conventions the team still used after I left — responsive layouts, reusable UI patterns, and a clearer separation between presentation and logic.",
+      tags: ['JavaScript', 'HTML/CSS', 'Component Design', 'Responsive UI']
     }
   ];
 

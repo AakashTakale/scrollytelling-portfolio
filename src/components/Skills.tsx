@@ -27,10 +27,10 @@ export default function Skills() {
             <div className="relative z-10 flex flex-col h-full">
               <h4 className="text-3xl md:text-3xl font-semibold text-white mb-4">Frontend Architecture</h4>
               <p className="text-neutral-400 text-lg leading-relaxed max-w-xl mb-8">
-                Specialized in building scalable, component-driven UIs and steering large-scale migration efforts for enterprise applications.
+                Building scalable component systems for large, long-lived applications. Strong focus on maintainability, team velocity, and raising the quality floor across a codebase.
               </p>
               <div className="flex gap-3 flex-wrap mt-auto">
-                {['Vue.js (v3/v4)', 'React', 'TypeScript', 'JavaScript (ES6+)'].map(tech => (
+                {['Vue.js (v3/v4)', 'React', 'TypeScript', 'Component Systems'].map(tech => (
                   <span key={tech} className={badgeStyle}>{tech}</span>
                 ))}
               </div>
@@ -47,12 +47,12 @@ export default function Skills() {
           >
             <div className="absolute inset-0 bg-gradient-to-br from-transparent to-purple-900/10 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
             <div className="relative z-10 flex flex-col h-full">
-              <h4 className="text-2xl md:text-3xl font-semibold text-white mb-4">AI Integration</h4>
+              <h4 className="text-2xl md:text-3xl font-semibold text-white mb-4">Performance & DX</h4>
               <p className="text-neutral-400 text-lg leading-relaxed mb-8">
-                Accelerating workflows using advanced LLMs and AI context tools.
+                Reducing render cost, eliminating unnecessary state, and building patterns that make the right thing the easy thing for the next engineer.
               </p>
               <div className="flex gap-3 flex-wrap mt-auto">
-                {['Claude 4.5', 'LLM Refactoring', 'Code Gen'].map(tech => (
+                {['Rendering Optimization', 'State Design', 'Dev Tooling'].map(tech => (
                   <span key={tech} className={badgeStyle}>{tech}</span>
                 ))}
               </div>
@@ -69,12 +69,12 @@ export default function Skills() {
           >
             <div className="absolute inset-0 bg-gradient-to-tr from-transparent to-blue-900/10 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
             <div className="relative z-10 flex flex-col h-full">
-              <h4 className="text-2xl md:text-3xl font-semibold text-white mb-4">Backend & Cloud</h4>
+              <h4 className="text-2xl md:text-3xl font-semibold text-white mb-4">Platform & Integration</h4>
               <p className="text-neutral-400 text-lg leading-relaxed mb-8">
-                Integrating frontends seamlessly with robust microservices.
+                Integrating frontends with cloud infrastructure, REST APIs, and data-heavy enterprise backends.
               </p>
               <div className="flex gap-3 flex-wrap mt-auto">
-                {['AWS Cloud', 'Java (Kotlin)', 'DynamoDB'].map(tech => (
+                {['AWS', 'REST APIs', 'Java / Kotlin'].map(tech => (
                   <span key={tech} className={badgeStyle}>{tech}</span>
                 ))}
               </div>
@@ -91,12 +91,12 @@ export default function Skills() {
           >
             <div className="absolute inset-x-0 bottom-0 top-1/2 bg-gradient-to-t from-emerald-900/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
             <div className="relative z-10 flex flex-col h-full">
-              <h4 className="text-3xl md:text-3xl font-semibold text-white mb-4">Design Systems & Delivery</h4>
+              <h4 className="text-3xl md:text-3xl font-semibold text-white mb-4">Cross-functional Delivery</h4>
               <p className="text-neutral-400 text-lg leading-relaxed max-w-2xl mb-8">
-                Leveraging modern tooling and agile methodologies to build high-performance components and assure reliable pipelines.
+                Working across product, design, and QA to define what ships, when, and how. Comfortable leading technical decisions and communicating tradeoffs across non-engineering stakeholders.
               </p>
               <div className="flex gap-3 flex-wrap mt-auto">
-                {['Tailwind CSS', 'Framer Motion', 'Material UI', 'Agile/Scrum', 'CI/CD Pipelines'].map(tech => (
+                {['Design Systems', 'Agile / Scrum', 'Code Review', 'CI/CD'].map(tech => (
                   <span key={tech} className={badgeStyle}>{tech}</span>
                 ))}
               </div>

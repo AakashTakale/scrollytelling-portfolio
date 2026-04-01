@@ -59,7 +59,7 @@ const socialLinks = [
 
 export default function Connect() {
   return (
-    <section className="relative z-20 w-full bg-[#0f0f0f] border-t border-neutral-900 py-24 px-6 md:px-12">
+    <section className="relative z-20 w-full bg-[#0f0f0f] border-t border-neutral-900 py-16 px-6 md:px-12">
       <div className="max-w-7xl mx-auto text-white">
 
         {/* Heading */}
@@ -83,7 +83,7 @@ export default function Connect() {
           transition={{ duration: 0.5, delay: 0.08 }}
           className="text-neutral-600 text-sm text-center mb-14 tracking-wide"
         >
-          Reach out or explore more about my work.
+          Open to frontend engineering roles where I can help build scalable, user-focused systems and collaborate closely with product and design.
         </motion.p>
 
         {/* Icon row */}
